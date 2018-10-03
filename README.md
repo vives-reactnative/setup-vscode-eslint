@@ -2,7 +2,7 @@
 
 ## What is ESLint
 
-[![ESLint](https://img.youtube.com/vi/aWFwJVjfDlE/0.jpg)](https://www.youtube.com/watch?v=aWFwJVjfDlE
+[![ESLint](https://img.youtube.com/vi/aWFwJVjfDlE/0.jpg)](https://www.youtube.com/watch?v=aWFwJVjfDlE)
 
 
 ## Setup ESLint
