@@ -1,7 +1,9 @@
 # Setup ESLint, Prettier & VSCode
 
 ## What is ESLint
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aWFwJVjfDlE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+[![ESLint](https://img.youtube.com/vi/aWFwJVjfDlE/0.jpg)](https://www.youtube.com/watch?v=aWFwJVjfDlE
+
 
 ## Setup ESLint
 ### One time
