@@ -2,6 +2,7 @@
 
 ## What is ESLint
 
+Klik op onderstaande afbeelding om youtube video te bekijken over ESLint
 [![ESLint](https://img.youtube.com/vi/aWFwJVjfDlE/0.jpg)](https://www.youtube.com/watch?v=aWFwJVjfDlE)
 
 
@@ -53,9 +54,11 @@ Het bestand .eslintrc.json is toegevoegd. Open het bestand en overschrijf het me
   "extends": "airbnb",
   "plugins": ["react", "jsx-a11y", "import"],
   "rules": {
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/prop-types": [1]
   }
 }
+
 ```
 
 ## Setup Prettier
