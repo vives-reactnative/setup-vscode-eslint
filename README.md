@@ -20,58 +20,54 @@ Open Visual Studio Code en voeg volgende plugin toe:
 
 Install en reload
 
-### Configureren van ESLint in je RN project
-Op een Terminal in de root folder van je project. **Tip**: Dit kan ook in VS Code
+![Install ESLint extension in VSCode](https://github.com/vives-reactnative/setup-vscode-eslint/blob/master/images/eslintextension.gif "Install ESLint extension in VSCode")
+
+Indien in het project een ESLint config bestand aanwezig is zal VSCode onmiddellijk feedback geven op de JavaScript code als die niet voldoet aan de vooropgestelde regels
+
+### Configureren van ESLint in ieder RN project
+Op een Terminal in de root folder van je project.
+**Tip**: Dit kan ook in VS Code
 
 #### Stap 1
 Voeg volgende development dependencies toe aan je project:
 ```
-npm install --save-dev eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y babel-eslint
+npm install --save-dev eslint-config-rallycoding
 ```
-
-#### Stap 2
-```
-eslint --init
-```
-
-1. Selecteer 'Use a popular style guide'
-2. Selecteer Airbnb
-3. Selecteer JSON type
-4. Update to newer versions? Yes
-
-Herstart VS Code
 
 #### Stap 3
-Het bestand .eslintrc.json is toegevoegd. Open het bestand en overschrijf het met volgende:
+Voeg een bestand .eslintrc toe aan de root van je RN project
 ```json
 {
-  "env": {
-    "node": true,
-    "browser": true,
-    "es6": true
-  },
-  "parser": "babel-eslint",
-  "extends": "airbnb",
-  "plugins": ["react", "jsx-a11y", "import"],
-  "rules": {
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "react/prop-types": [1]
-  }
+  "extends": "rallycoding"
 }
 
 ```
 
 ## Setup Prettier
+VSCode toont ons nu alle ESLint-warning. Maar we moeten ze nog steeds handmatig corrigeren. Boe! Om het onszelf gemakkelijker te maken, installeren we een andere tool genaamd Prettier. Prettier zal onze code automatisch voor ons opmaken wanneer we erom vragen of wanneer we een bestand opslaan.
+
+### One time
+Install Prettier globally
+
+Open je commandline en voer volgend commando uit
+```
+npm install -g prettier
+```
+
 Open Visual Studio Code en voeg volgende plugin toe:
 - Prettier - Code formatter
 
 Install en reload
 
+![Install Prettier extension in VSCode](https://github.com/vives-reactnative/setup-vscode-eslint/blob/master/images/prettier.gif "Install Prettier extension in VSCode")
+
+
 In Visual Studio Code open Preferences > Settings
+- prettier.eslintIntegration: true
 - editor.formatOnSave: true
 - eslint.autoFixOnSave: true
 - eslint.alwaysShowStatus: true
-- files.autoSave: onFocusChange
+- files.autoSave: onFocusChange (optioneel)
 
 
 ## Setup VSCode
