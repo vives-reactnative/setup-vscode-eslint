@@ -20,7 +20,7 @@ Open Visual Studio Code en voeg volgende plugin toe:
 
 Install en reload
 
-![Install ESLint extension in VSCode](https://github.com/vives-reactnative/setup-vscode-eslint/blob/master/images/eslintextension.gif "Install ESLint extension in VSCode")
+![Install ESLint extension in VSCode](https://github.com/vives-reactnative/setup-vscode-eslint/blob/rallycodingconfig/images/eslintextension.gif "Install ESLint extension in VSCode")
 
 Indien in het project een ESLint config bestand aanwezig is zal VSCode onmiddellijk feedback geven op de JavaScript code als die niet voldoet aan de vooropgestelde regels
 
@@ -59,7 +59,7 @@ Open Visual Studio Code en voeg volgende plugin toe:
 
 Install en reload
 
-![Install Prettier extension in VSCode](https://github.com/vives-reactnative/setup-vscode-eslint/blob/master/images/prettier.gif "Install Prettier extension in VSCode")
+![Install Prettier extension in VSCode](https://github.com/vives-reactnative/setup-vscode-eslint/blob/rallycodingconfig/images/prettier.png "Install Prettier extension in VSCode")
 
 
 In Visual Studio Code open Preferences > Settings
