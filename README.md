@@ -26,7 +26,8 @@ Indien in het project een ESLint config bestand aanwezig is zal VSCode onmiddell
 
 ### Configureren van ESLint in ieder RN project
 Op een Terminal in de root folder van je project.
-**Tip**: Dit kan ook in VS Code
+
+**Tip**: Dit kan ook in VS Code, view Terminal
 
 #### Stap 1
 Voeg volgende development dependencies toe aan je project:
