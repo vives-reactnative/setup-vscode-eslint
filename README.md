@@ -30,13 +30,14 @@ Op een Terminal in de root folder van je project.
 **Tip**: Dit kan ook in VS Code, view Terminal
 
 #### Stap 1
-Voeg volgende development dependencies toe aan je project:
+Voeg volgende development dependencies toe aan je project. Open een commandline in de root folder van je project, in de folder waar ook het bestand package.json is terug te vinden.
 ```
 npm install --save-dev eslint-config-rallycoding
 ```
+Na het uitvoeren van dit commando op de command line zal in package.json een development dependency zijn toegevoegd
 
 #### Stap 3
-Voeg een bestand .eslintrc toe aan de root van je RN project
+Voeg een bestand .eslintrc toe aan de root van je React Native project
 ```json
 {
   "extends": "rallycoding"
