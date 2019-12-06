@@ -43,7 +43,7 @@ npm install --save-dev eslint-config-rallycoding
 
 Na het uitvoeren van dit commando op de command line zal in package.json een development dependency zijn toegevoegd
 
-#### Stap 3
+#### Stap 2
 
 Voeg een bestand .eslintrc toe aan de root van je React Native project
 
