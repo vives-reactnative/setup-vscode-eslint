@@ -80,11 +80,9 @@ Install en reload
 
 In Visual Studio Code open Preferences > Settings
 
-- prettier.eslintIntegration: true
 - editor.formatOnSave: true
 - eslint.autoFixOnSave: true
 - eslint.alwaysShowStatus: true
-- files.autoSave: onFocusChange (optioneel)
 
 ## Setup VSCode
 
