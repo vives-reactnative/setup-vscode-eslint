@@ -83,6 +83,7 @@ In Visual Studio Code open Preferences > Settings
 - editor.formatOnSave: true
 - eslint.alwaysShowStatus: true
 - eslint.codeActionsOnSave: all
+- prettier.singleQuote: true
 
 ## Setup VSCode
 
