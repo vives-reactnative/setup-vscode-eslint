@@ -81,8 +81,8 @@ Install en reload
 In Visual Studio Code open Preferences > Settings
 
 - editor.formatOnSave: true
-- eslint.autoFixOnSave: true
 - eslint.alwaysShowStatus: true
+- eslint.codeActionsOnSave: all
 
 ## Setup VSCode
 
